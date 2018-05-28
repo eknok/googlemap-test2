@@ -36,6 +36,10 @@ gem 'jbuilder', '~> 2.5'
 gem 'gmaps4rails'
 # slim導入
 gem 'slim-rails'
+# .env から環境変数を読み込み
+gem 'dotenv-rails'
+# jquery
+gem 'jquery-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
