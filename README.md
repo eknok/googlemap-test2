@@ -7,5 +7,5 @@ google-mapをrailsAPP内で表示させるテスト
 ## 参考
 - [Railsで住所からGoogleMapを表示する。しかも5分で。](https://qiita.com/master-of-sugar/items/e71cbf659c6bd0fe948e)  
 
-※今回はこれ
+※今回はこれ(geocoderなし)
 - [RailsでGoogleMapを表示させる(gem 'gmaps4rails'の使い方)](https://qiita.com/nakanoyoshiki/items/af9f37e9d2653518d6b0)  
