@@ -1,0 +1,15 @@
+p#notice = notice
+
+p
+  strong Address:
+  = @map.address
+p
+  strong Latitude:
+  = @map.latitude
+p
+  strong Longitude:
+  = @map.longitude
+
+=> link_to 'Edit', edit_map_path(@map)
+'|
+=< link_to 'Back', maps_path

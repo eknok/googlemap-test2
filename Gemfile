@@ -32,6 +32,16 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+# google-map for rails
+gem 'gmaps4rails'
+# slim導入
+gem 'slim-rails'
+# .env から環境変数を読み込み
+gem 'dotenv-rails'
+# jquery(googlemap表示のため)
+gem 'jquery-rails'
+# 住所から緯度経度を取得
+gem 'geocoder'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
