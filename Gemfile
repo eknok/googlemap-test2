@@ -38,8 +38,10 @@ gem 'gmaps4rails'
 gem 'slim-rails'
 # .env から環境変数を読み込み
 gem 'dotenv-rails'
-# jquery
+# jquery(googlemap表示のため)
 gem 'jquery-rails'
+# 住所から緯度経度を取得
+gem 'geocoder'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
